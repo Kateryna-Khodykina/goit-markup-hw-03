@@ -33,6 +33,7 @@
 }
 
 .nav-link {
+  display: block;
   padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
@@ -51,7 +52,7 @@
   margin-left: auto;
 }
 
-.adress-list {
+.address-list {
   display: flex;
   gap: 40px;
 }
