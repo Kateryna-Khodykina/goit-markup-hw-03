@@ -1,3 +1,12 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -6,10 +15,21 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -27,6 +47,12 @@
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-link {
